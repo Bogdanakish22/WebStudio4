@@ -48,7 +48,36 @@ body {
 .contact-link:hover {
   color: #2196f3;
 }
-.hero {
+.main {
+}
+.main-hero {
+}
+.work-title {
+  color: #212121;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 200% */
+  letter-spacing: 1.08px;
+}
+.work-text {
+  color: #757575;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+  letter-spacing: 0.48px;
+}
+.button {
+  color: #212121;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 0.48px;
+}
+.main-work work-img .hero {
   padding-top: 100px;
   text-align: center;
   background-color: #2f303a;
