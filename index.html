@@ -20,7 +20,7 @@
     />
   </head>
   <body>
-    <header class="header">
+    <header class="header container">
       <a href="" class="header-logo">Web<span class="studio">Studio</span></a>
       <nav class="header-nav">
         <ul class="nav-list">
@@ -42,10 +42,12 @@
     </header>
     <main>
       <section class="hero">
-        <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+        <h1 class="hero-title container">
+          Ефективні рішення для вашого бізнесу
+        </h1>
         <button type="button" class="hero-button">Замовити послугу</button>
       </section>
-      <section class="feature">
+      <section class="feature container">
         <ul class="feature-list">
           <li class="feature-item">
             <h3 class="feature-item-title">УВАГА ДО ДЕТАЛЕЙ</h3>
@@ -76,52 +78,32 @@
           </li>
         </ul>
       </section>
-      <section class="work">
+      <section class="work container">
         <h2 class="work-title">Чим ми займаємося</h2>
         <img class="work-img" src="./img/img(10).jpg" alt="art" width="370" />
         <img class="work-img" src="./img/img(2).jpg" alt="art" width="370" />
         <img class="work-img" src="./img/img(3).jpg" alt="art" width="370" />
       </section>
-      <section class="team">
+      <section class="team container">
         <h2 class="team-heading">Наша команда</h2>
         <ul class="team-list">
-          <li class="team-item">
-            <img
-              class="team-img"
-              src="./img/img(4).jpg"
-              alt="art"
-              width="300"
-            />
+          <li class="team-item-container">
+            <img class="team-img" src="./img/img(4).jpg" alt="art" />
             <h3 class="team-title">Ігор Дем'яненко</h3>
             <p class="team-text">Product Designer</p>
           </li>
           <li class="team-item">
-            <img
-              class="team-img"
-              src="./img/img(5).jpg"
-              alt="art"
-              width="300"
-            />
+            <img class="team-img" src="./img/img(5).jpg" alt="art" />
             <h3 class="team-title">Ольга Рєпіна</h3>
             <p class="team-text">Frontend Developer</p>
           </li>
           <li class="team-item">
-            <img
-              class="team-img"
-              src="./img/img(6).jpg"
-              alt="art"
-              width="300"
-            />
+            <img class="team-img" src="./img/img(6).jpg" alt="art" />
             <h3 class="team-title">Микола Тарасов</h3>
             <p class="team-text">Marketing</p>
           </li>
           <li class="team-item">
-            <img
-              class="team-img"
-              src="./img/img(8).jpg"
-              alt="art"
-              width="300"
-            />
+            <img class="team-img" src="./img/img(8).jpg" alt="art" />
             <h3 class="team-title">Михайло Єрмаков</h3>
             <p class="team-text">UI Designer</p>
           </li>
@@ -129,29 +111,31 @@
       </section>
     </main>
     <footer class="footer">
-      <a href="" class="footer-logo"
-        >Web<span class="footer-logo-span">Studio</span></a
-      >
-      <ul class="footer-list">
-        <li class="footer-item">
-          <a
-            href="https://maps.app.goo.gl/SEQaEaMzvS68Ri287"
-            target="_blank"
-            class="footer-item-link"
-            >м. Київ, пр-т Лесі Українки, 26</a
-          >
-        </li>
-        <li class="footer-item">
-          <a href="info@devstudio.com" class="footer-contact-link"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li class="footer-item">
-          <a href="+380961111111" class="footer-contact-link"
-            >+38 096 111 11 11</a
-          >
-        </li>
-      </ul>
+      <div class="container">
+        <a href="" class="footer-logo"
+          >Web<span class="footer-logo-span">Studio</span></a
+        >
+        <ul class="footer-list">
+          <li class="footer-item">
+            <a
+              href="https://maps.app.goo.gl/SEQaEaMzvS68Ri287"
+              target="_blank"
+              class="footer-item-link"
+              >м. Київ, пр-т Лесі Українки, 26</a
+            >
+          </li>
+          <li class="footer-item">
+            <a href="info@devstudio.com" class="footer-contact-link"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="footer-item">
+            <a href="+380961111111" class="footer-contact-link"
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>
