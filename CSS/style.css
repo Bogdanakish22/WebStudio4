@@ -43,6 +43,7 @@ body {
 .nav-list {
   display: flex;
   gap: 50px;
+  margin-left: -125px;
 }
 
 .nav-item {
@@ -89,7 +90,6 @@ body {
   flex-direction: column;
   margin: auto;
   background-color: #2f303a;
-  width: 1600px;
   height: 600px;
 }
 .hero-title {
@@ -199,8 +199,7 @@ body {
   letter-spacing: 1.08px;
 }
 .work-img {
-  padding: 0px 5px;
-  gap: 30px;
+  padding: 0px 15px;
 }
 .team {
   padding-bottom: 94px;
