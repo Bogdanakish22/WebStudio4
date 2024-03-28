@@ -29,13 +29,13 @@ body {
   padding: 25px 0px;
 }
 .header-logo {
-  color: #000;
+  color: #2196f3;
   font-family: Raleway;
   font-size: 26px;
   letter-spacing: 0.78px;
 }
 .studio {
-  color: #2196f3;
+  color: #000;
 }
 .header-nav {
 }
@@ -43,7 +43,7 @@ body {
 .nav-list {
   display: flex;
   gap: 50px;
-  margin-left: -125px;
+  margin-left: -180px;
 }
 
 .nav-item {
@@ -61,15 +61,21 @@ body {
 .contact-list {
   display: flex;
   gap: 50px;
-  margin-left: -125px;
 }
 .contact-item {
 }
 .contact-link {
   color: #757575;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.78px;
 }
 .contact-link:hover {
   color: #2196f3;
+}
+.line {
+  background: #ececec;
+  height: 1px;
 }
 .main {
 }
@@ -102,6 +108,7 @@ body {
   text-transform: uppercase;
   width: 696px;
   height: 120px;
+  margin-bottom: 30px;
 }
 .hero-button {
   color: #fff;
@@ -121,24 +128,34 @@ body {
 
 .work-img {
 }
+.work-list {
+  display: flex;
+  gap: 30px;
+}
+
 .main-work {
   background-color: #ffffff;
   margin-top: 94px;
 }
-.work-list {
+.main-list {
   display: flex;
   flex-wrap: wrap;
   margin-top: 50px;
-  gap: 18px;
+  gap: 25px;
   margin-bottom: 94px;
 }
-.work-item {
-  border: 1px solid white;
+.main-item {
+  border: 1px solid #eee;
+  background: #fff;
 }
-.work-title {
+.work-item {
+  border: 1px solid #eee;
+}
+.main-work-title {
   color: #212121;
-  font-style: normal;
+  font-size: 18px;
   font-weight: 700;
+  line-height: 36px; /* 200% */
   letter-spacing: 1.08px;
 }
 .work-text {
@@ -149,6 +166,7 @@ body {
   font-weight: 400;
   line-height: 30px; /* 187.5% */
   letter-spacing: 0.48px;
+  margin-bottom: 20px;
 }
 .button {
   border-radius: 4px;
@@ -178,6 +196,7 @@ body {
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 0.48px;
+  text-transform: uppercase;
 }
 .feature-item-text {
   color: #757575;
@@ -193,13 +212,12 @@ body {
 .work-title {
   margin-bottom: 50px;
   color: #212121;
+  font-size: 36px;
   text-align: center;
-  font-style: normal;
   font-weight: 700;
   letter-spacing: 1.08px;
 }
 .work-img {
-  padding: 0px 15px;
 }
 .team {
   padding-bottom: 94px;
@@ -212,7 +230,6 @@ body {
   color: #212121;
   text-align: center;
   font-size: 36px;
-  font-style: normal;
   font-weight: 700;
   letter-spacing: 1.08px;
 }
@@ -220,7 +237,6 @@ body {
   color: #212121;
   margin-bottom: 10px;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   letter-spacing: 0.48px;
 }
@@ -241,7 +257,6 @@ body {
 .team-text {
   color: #757575;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   letter-spacing: 0.48px;
 }
@@ -250,7 +265,8 @@ body {
   height: 252px;
   background: #2f303a;
   margin: auto;
-  padding-top: 50px;
+  padding-top: 60px;
+  justify-content: space-between;
 }
 .wrap-footer {
 }
