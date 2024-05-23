@@ -90,13 +90,18 @@ body {
 }
 
 .hero {
+  background-color: #2f303a;
+  background-image: url(../img/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   margin: auto;
-  background-color: #2f303a;
   height: 600px;
+  max-width: 1600px;
 }
 .hero-title {
   margin: 0 auto;
@@ -141,12 +146,16 @@ body {
   display: flex;
   flex-wrap: wrap;
   margin-top: 50px;
-  gap: 25px;
+  gap: 24px;
   margin-bottom: 94px;
 }
 .main-item {
   border: 1px solid #eee;
   background: #fff;
+}
+.main-item:hover {
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
 }
 .work-item {
   border: 1px solid #eee;
@@ -180,6 +189,8 @@ body {
 }
 .button:hover {
   background-color: #2196f3;
+  box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
 }
 .feature {
 }
@@ -249,6 +260,8 @@ body {
   text-align: center;
   background-color: #fff;
   padding-bottom: 30px;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
 }
 .team-img {
   margin-bottom: 30px;
