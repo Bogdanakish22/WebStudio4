@@ -201,6 +201,29 @@ body {
 }
 .feature-item {
 }
+.feature-item::before {
+  display: block;
+  content: "";
+  background-color: #f5f4fa;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 30px;
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+}
+.feature-item:nth-child(1):before {
+  background-image: url(../img/antenna-feature.jpg);
+}
+.feature-item:nth-child(2):before {
+  background-image: url(../img/clock.jpg);
+}
+.feature-item:nth-child(3):before {
+  background-image: url(../img/diagram.jpg);
+}
+.feature-item:nth-child(4):before {
+  background-image: url(../img/astronaut.jpg);
+}
 .feature-item-title {
   margin-bottom: 10px;
   color: #212121;
