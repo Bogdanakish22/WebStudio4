@@ -9,7 +9,7 @@ a {
   margin: 0;
   box-sizing: border-box;
 }
-*,
+
 body {
   font-family: Roboto;
   line-height: normal;
@@ -297,26 +297,53 @@ body {
 }
 .team-social-list {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .team-social-item {
   padding: 12px;
+  border-radius: 50%;
 }
 .team-social-item:hover {
   background-color: #2196f3;
-  border-radius: 50%;
 }
 .team-social-link {
   display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.team-wrap {
+}
+.team-wrap-item {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  border-radius: 50%;
+}
+.team-wrap-item:hover {
+  fill: #ececec;
+  background-color: #2196f3;
+}
+.team-wrap-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .team-icon {
   fill: #757575;
 }
 .team-icon:hover {
-  fill: #fff;
-  background-color: #2196f3;
+  fill: #ffffff;
 }
+.team-icon-link {
+  display: flex;
+  text-align: center;
+}
+
 .customers {
 }
+
 .customers-title {
   padding-bottom: 50px;
   margin-top: 94px;
@@ -357,6 +384,10 @@ body {
   padding-top: 60px;
   justify-content: space-between;
 }
+.footer-container {
+  display: flex;
+  gap: 70px;
+}
 .wrap-footer {
 }
 .footer-logo {
@@ -370,11 +401,53 @@ body {
   color: #fff;
 }
 .footer-list {
+  padding-top: 20px;
 }
 .footer-item {
 }
+.footer-wrap-icon {
+  margin-top: 12px;
+}
 .footer-icon-wrap {
-  margin-right: 300px;
+  gap: 10px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  border-radius: 50%;
+}
+.footer-wrap-item {
+  background-color: rgba(255, 255, 255, 0.1);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  border-radius: 50%;
+}
+.footer-wrap-item:hover {
+  fill: #ececec;
+  background-color: #2196f3;
+}
+.footer-icon-title {
+  padding-bottom: 20px;
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+.footer-list-icon {
+}
+.footer-wrap-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-icon {
+  fill: #ececec;
+}
+.team-icon:hover {
 }
 .footer-item-link {
   color: #fff;
