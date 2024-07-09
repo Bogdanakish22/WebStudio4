@@ -107,30 +107,45 @@
       <section class="work container">
         <h2 class="work-title">Чим ми займаємося</h2>
         <ul class="work-list">
-          <li class="work-item">
-            <img
-              class="work-img"
-              src="./img/work-1.jpg"
-              alt="art"
-              width="370"
-            />
-          </li>
-          <li class="work-item">
-            <img
-              class="work-img"
-              src="./img/work-2.jpg"
-              alt="art"
-              width="370"
-            />
-          </li>
-          <li class="work-item">
-            <img
-              class="work-img"
-              src="./img/work-3.jpg"
-              alt="art"
-              width="370"
-            />
-          </li>
+          <div class="work-list-wrap">
+            <li class="work-item">
+              <img
+                class="work-img"
+                src="./img/work-1.jpg"
+                alt="art"
+                width="370"
+              />
+            </li>
+            <div class="work-item-box">
+              <h3 class="wotk-title-box">Десктопні додатки</h3>
+            </div>
+          </div>
+          <div class="work-list-wrap">
+            <li class="work-item">
+              <img
+                class="work-img"
+                src="./img/work-2.jpg"
+                alt="art"
+                width="370"
+              />
+            </li>
+            <div class="work-item-box">
+              <h3 class="wotk-title-box">Мобільні додатки</h3>
+            </div>
+          </div>
+          <div class="work-list-wrap">
+            <li class="work-item">
+              <img
+                class="work-img"
+                src="./img/work-3.jpg"
+                alt="art"
+                width="370"
+              />
+            </li>
+            <div class="work-item-box">
+              <h3 class="wotk-title-box">Дизайнерські рішення</h3>
+            </div>
+          </div>
         </ul>
       </section>
       <section class="team">
@@ -304,36 +319,36 @@
           </ul>
         </div>
       </section>
-      <section class="customers">
+      <section class="customers container">
         <h2 class="customers-title">Постійні клієнти</h2>
         <ul class="customers-list">
           <li class="customers-item">
-            <svg class="customers-icon" width="84px" height="40px">
+            <svg class="customers-icon" width="84" height="40">
               <use href="img/symbol-defs.svg#icon-team-1"></use>
             </svg>
           </li>
           <li class="customers-item">
-            <svg class="customers-icon" width="84px" height="40px">
+            <svg class="customers-icon" width="84" height="40">
               <use href="img/symbol-defs.svg#icon-team-2"></use>
             </svg>
           </li>
           <li class="customers-item">
-            <svg class="customers-icon" width="84px" height="40px">
+            <svg class="customers-icon" width="84" height="40">
               <use href="img/symbol-defs.svg#icon-team-3"></use>
             </svg>
           </li>
           <li class="customers-item">
-            <svg class="customers-icon" width="84px" height="40px">
+            <svg class="customers-icon" width="84" height="40">
               <use href="img/symbol-defs.svg#icon-team-4"></use>
             </svg>
           </li>
           <li class="customers-item">
-            <svg class="customers-icon" width="84px" height="40px">
+            <svg class="customers-icon" width="84" height="40">
               <use href="img/symbol-defs.svg#icon-team-5"></use>
             </svg>
           </li>
           <li class="customers-item">
-            <svg class="customers-icon" width="84px" height="40px">
+            <svg class="customers-icon" width="84" height="40">
               <use href="img/symbol-defs.svg#icon-team-6"></use>
             </svg>
           </li>
@@ -369,7 +384,7 @@
               <li class="footer-item"></li>
             </ul>
           </div>
-          <div class="footer-wrap-icon">
+          <div>
             <h3 class="footer-icon-title">приєднуйтесь</h3>
             <ul class="footer-list-icon">
               <li class="footer-wrap-item">
@@ -401,6 +416,22 @@
                 </a>
               </li>
             </ul>
+          </div>
+          <div>
+            <h3 class="user-bunner-title">Підпишіться на розсилку</h3>
+            <form class="user-bunner-form">
+              <input
+                type="bunner-text"
+                class="user-bunner-input"
+                placeholder="E-mail"
+              />
+              <button type="button" class="user-bunner-btn">
+                Підписатися
+                <svg class="footer-button-icon" width="20px" height="20px">
+                  <use href="img/symbol-defs.svg#icon-send"></use>
+                </svg>
+              </button>
+            </form>
           </div>
         </div>
       </div>
