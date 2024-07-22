@@ -1,0 +1,147 @@
+.footer {
+  height: 252px;
+  background: #2f303a;
+  margin: auto;
+  padding-top: 60px;
+  justify-content: space-between;
+}
+.footer-container {
+  display: flex;
+  gap: 70px;
+  width: 1600px;
+}
+.wrap-footer {
+}
+.footer-logo {
+  color: #2196f3;
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.78px;
+}
+.footer-logo-span {
+  color: #fff;
+}
+.footer-list {
+  padding-top: 20px;
+}
+.footer-item {
+}
+.footer-wrap-icon {
+  margin-top: 12px;
+}
+.footer-icon-wrap {
+  gap: 10px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  border-radius: 50%;
+}
+.footer-wrap-item {
+  background-color: rgba(255, 255, 255, 0.1);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  border-radius: 50%;
+}
+.footer-wrap-item:hover {
+  fill: #ececec;
+  background-color: #2196f3;
+}
+.footer-icon-title {
+  margin-top: 12px;
+  padding-bottom: 20px;
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+.footer-icon-box {
+  display: flex;
+}
+.footer-list-icon {
+}
+.bob {
+  display: flex;
+}
+.footer-wrap-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-icon {
+  fill: #ececec;
+}
+
+.footer-item-link {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  /* 171.429% */
+  letter-spacing: 0.42px;
+}
+.footer-contact-link {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  /* 171.429% */
+  letter-spacing: 0.42px;
+}
+
+.user-bunner-title {
+  margin-left: 93px;
+  margin-top: 12px;
+  margin-bottom: 20px;
+  display: flex;
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+.user-bunner-box {
+}
+.user-bunner-form {
+  margin-left: 93px;
+}
+.user-bunner-input-wrap {
+}
+.user-bunner-input {
+  padding-left: 16px;
+  width: 358px;
+  height: 50px;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+  letter-spacing: 0.48px;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(33, 150, 243, 0);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.user-bunner-btn {
+  width: 200px;
+  height: 50px;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 187.5% */
+  letter-spacing: 0.96px;
+  border-radius: 4px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.footer-button-icon {
+  fill: #eee;
+}

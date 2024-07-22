@@ -10,7 +10,7 @@
       rel="stylesheet"
     />
     <title>WebStudio</title>
-    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="./CSS/main.min.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
@@ -24,23 +24,30 @@
       <a href="" class="header-logo">Web<span class="studio">Studio</span></a>
       <nav class="header-nav">
         <ul class="nav-list">
-          <li class="nav-item"><a href="#" class="nav-link">Студія</a></li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Студія</a>
+            <hr class="btn-line" />
+          </li>
           <li class="nav-item">
             <a href="./portfolio.html" class="nav-link">Портфоліо</a>
+            <hr class="btn-line" />
           </li>
-          <li class="nav-item"><a href="#" class="nav-link">Контакти</a></li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Контакти</a>
+            <hr class="btn-line" />
+          </li>
         </ul>
       </nav>
       <ul class="contact-list">
         <li class="contact-item">
           <svg class="rob">
-            <use href="img/symbol-defs.svg#icon-envelope"></use>
+            <use href="img/symbol-defs.svg#envelope"></use>
           </svg>
           <a href="#" class="contact-link">info@devstudio.com</a>
         </li>
         <li class="contact-item">
           <svg class="rob">
-            <use href="img/symbol-defs.svg#icon-smartphone"></use>
+            <use href="img/symbol-defs.svg#smartphone"></use>
           </svg>
           <a href="#" class="contact-link">+38 096 111 11 11</a>
         </li>
@@ -51,14 +58,67 @@
         <h1 class="hero-title container">
           Ефективні рішення для вашого бізнесу
         </h1>
-        <button type="button" class="hero-button">Замовити послугу</button>
+        <button
+          type="button"
+          class="hero-button data-modal-open"
+          data-modal-open
+        >
+          Замовити послугу
+        </button>
+        <div class="backdrop is-hidden" data-modal>
+          <div class="modal">
+            <button data-modal-close>закрыть</button>
+            <h4 class="hero-modal-title">
+              Залиште свої дані, ми вам передзвонимо
+            </h4>
+            <form
+              class="controll"
+              action="signup_form"
+              autocomplete="on"
+              novalidate
+            >
+              <label class="hero-modal-form">
+                Ім'я
+                <input class="hero-modal-text" type="name" name="name" />
+              </label>
+              <label class="hero-modal-form">
+                Телефон
+                <input class="hero-modal-text" type="number" name="number" />
+              </label>
+              <label class="hero-modal-form">
+                Пошта
+                <input class="hero-modal-text" type="email" name="email" />
+              </label>
+              <label class="hero-modal-form">
+                Коментар
+                <textarea
+                  class="hero-modal-contract"
+                  name="komment"
+                  rows="5"
+                ></textarea>
+              </label>
+              <label class="hero-modal-checkbox">
+                <input
+                  class="hero-modal-checkbox"
+                  type="checkbox"
+                  name="contract"
+                  value="Погоджуюся з розсилкою та приймаю Умови договору"
+                  checked
+                />
+                Погоджуюся з розсилкою та приймаю
+                <a href=""> Умови договору</a>
+                <button class="hero-modal-button">Відправити</button>
+              </label>
+            </form>
+          </div>
+        </div>
       </section>
       <section class="feature container">
         <ul class="feature-list">
           <li class="feature-item">
             <div class="feature-wrap">
               <svg class="feature-icon">
-                <use href="img/symbol-defs.svg#icon-antenna"></use>
+                <use href="img/symbol-defs.svg#antenna"></use>
               </svg>
             </div>
             <h3 class="feature-item-title">УВАГА ДО ДЕТАЛЕЙ</h3>
@@ -70,7 +130,7 @@
           <li class="feature-item">
             <div class="feature-wrap">
               <svg class="feature-icon">
-                <use href="img/symbol-defs.svg#icon-clock"></use>
+                <use href="img/symbol-defs.svg#clock"></use>
               </svg>
             </div>
             <h3 class="feature-item-title">ПУНКТУАЛЬНІСТЬ</h3>
@@ -82,7 +142,7 @@
           <li class="feature-item">
             <div class="feature-wrap">
               <svg class="feature-icon">
-                <use href="img/symbol-defs.svg#icon-diagram"></use>
+                <use href="img/symbol-defs.svg#diagram"></use>
               </svg>
             </div>
             <h3 class="feature-item-title">ПЛАНУВАННЯ</h3>
@@ -93,7 +153,7 @@
           <li class="feature-item">
             <div class="feature-wrap">
               <svg class="feature-icon">
-                <use href="img/symbol-defs.svg#icon-astronaut"></use>
+                <use href="img/symbol-defs.svg#astronaut"></use>
               </svg>
             </div>
             <h3 class="feature-item-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
@@ -166,28 +226,28 @@
                 <li class="team-wrap-item">
                   <a href="https://www.instagram.com/" class="team-wrap-link">
                     <svg class="team-icon" width="20" height="20">
-                      <use href="img/symbol-defs.svg#icon-instagram"></use>
+                      <use href="img/symbol-defs.svg#instagram"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="team-wrap-item">
                   <a href="https://x.com/?lang=uk" class="team-wrap-link">
                     <svg class="team-icon" width="20px" height="20px">
-                      <use href="img/symbol-defs.svg#icon-twitter"></use>
+                      <use href="img/symbol-defs.svg#twitter"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="team-wrap-item">
                   <a href="https://de-de.facebook.com/" class="team-wrap-link">
                     <svg class="team-icon" width="20px" height="20px">
-                      <use href="img/symbol-defs.svg#icon-facebook"></use>
+                      <use href="img/symbol-defs.svg#facebook"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="team-wrap-item">
                   <a href="https://www.linkedin.com/" class="team-wrap-link">
                     <svg class="team-icon" width="20px" height="20px">
-                      <use href="img/symbol-defs.svg#icon-linkedin"></use>
+                      <use href="img/symbol-defs.svg#linkedin"></use>
                     </svg>
                   </a>
                 </li>
@@ -207,28 +267,28 @@
                 <li class="team-wrap-item">
                   <a href="https://www.instagram.com/" class="team-wrap-link">
                     <svg class="team-icon" width="20" height="20">
-                      <use href="img/symbol-defs.svg#icon-instagram"></use>
+                      <use href="img/symbol-defs.svg#instagram"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="team-wrap-item">
                   <a href="https://x.com/?lang=uk" class="team-wrap-link">
                     <svg class="team-icon" width="20px" height="20px">
-                      <use href="img/symbol-defs.svg#icon-twitter"></use>
+                      <use href="img/symbol-defs.svg#twitter"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="team-wrap-item">
                   <a href="https://de-de.facebook.com/" class="team-wrap-link">
                     <svg class="team-icon" width="20px" height="20px">
-                      <use href="img/symbol-defs.svg#icon-facebook"></use>
+                      <use href="img/symbol-defs.svg#facebook"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="team-wrap-item">
                   <a href="https://www.linkedin.com/" class="team-wrap-link">
                     <svg class="team-icon" width="20px" height="20px">
-                      <use href="img/symbol-defs.svg#icon-linkedin"></use>
+                      <use href="img/symbol-defs.svg#linkedin"></use>
                     </svg>
                   </a>
                 </li>
@@ -248,28 +308,28 @@
                 <li class="team-wrap-item">
                   <a href="https://www.instagram.com/" class="team-wrap-link">
                     <svg class="team-icon" width="20" height="20">
-                      <use href="img/symbol-defs.svg#icon-instagram"></use>
+                      <use href="img/symbol-defs.svg#instagram"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="team-wrap-item">
                   <a href="https://x.com/?lang=uk" class="team-wrap-link">
                     <svg class="team-icon" width="20px" height="20px">
-                      <use href="img/symbol-defs.svg#icon-twitter"></use>
+                      <use href="img/symbol-defs.svg#twitter"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="team-wrap-item">
                   <a href="https://de-de.facebook.com/" class="team-wrap-link">
                     <svg class="team-icon" width="20px" height="20px">
-                      <use href="img/symbol-defs.svg#icon-facebook"></use>
+                      <use href="img/symbol-defs.svg#facebook"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="team-wrap-item">
                   <a href="https://www.linkedin.com/" class="team-wrap-link">
                     <svg class="team-icon" width="20px" height="20px">
-                      <use href="img/symbol-defs.svg#icon-linkedin"></use>
+                      <use href="img/symbol-defs.svg#linkedin"></use>
                     </svg>
                   </a>
                 </li>
@@ -289,28 +349,28 @@
                 <li class="team-wrap-item">
                   <a href="https://www.instagram.com/" class="team-wrap-link">
                     <svg class="team-icon" width="20" height="20">
-                      <use href="img/symbol-defs.svg#icon-instagram"></use>
+                      <use href="img/symbol-defs.svg#instagram"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="team-wrap-item">
                   <a href="https://x.com/?lang=uk" class="team-wrap-link">
                     <svg class="team-icon" width="20px" height="20px">
-                      <use href="img/symbol-defs.svg#icon-twitter"></use>
+                      <use href="img/symbol-defs.svg#twitter"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="team-wrap-item">
                   <a href="https://de-de.facebook.com/" class="team-wrap-link">
                     <svg class="team-icon" width="20px" height="20px">
-                      <use href="img/symbol-defs.svg#icon-facebook"></use>
+                      <use href="img/symbol-defs.svg#facebook"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="team-wrap-item">
                   <a href="https://www.linkedin.com/" class="team-wrap-link">
                     <svg class="team-icon" width="20px" height="20px">
-                      <use href="img/symbol-defs.svg#icon-linkedin"></use>
+                      <use href="img/symbol-defs.svg#linkedin"></use>
                     </svg>
                   </a>
                 </li>
@@ -324,32 +384,32 @@
         <ul class="customers-list">
           <li class="customers-item">
             <svg class="customers-icon" width="84" height="40">
-              <use href="img/symbol-defs.svg#icon-team-1"></use>
+              <use href="img/symbol-defs.svg#team-1"></use>
             </svg>
           </li>
           <li class="customers-item">
             <svg class="customers-icon" width="84" height="40">
-              <use href="img/symbol-defs.svg#icon-team-2"></use>
+              <use href="img/symbol-defs.svg#team-2"></use>
             </svg>
           </li>
           <li class="customers-item">
             <svg class="customers-icon" width="84" height="40">
-              <use href="img/symbol-defs.svg#icon-team-3"></use>
+              <use href="img/symbol-defs.svg#team-3"></use>
             </svg>
           </li>
           <li class="customers-item">
             <svg class="customers-icon" width="84" height="40">
-              <use href="img/symbol-defs.svg#icon-team-4"></use>
+              <use href="img/symbol-defs.svg#team-4"></use>
             </svg>
           </li>
           <li class="customers-item">
             <svg class="customers-icon" width="84" height="40">
-              <use href="img/symbol-defs.svg#icon-team-5"></use>
+              <use href="img/symbol-defs.svg#team-5"></use>
             </svg>
           </li>
           <li class="customers-item">
             <svg class="customers-icon" width="84" height="40">
-              <use href="img/symbol-defs.svg#icon-team-6"></use>
+              <use href="img/symbol-defs.svg#team-6"></use>
             </svg>
           </li>
         </ul>
@@ -390,28 +450,28 @@
               <li class="footer-wrap-item">
                 <a href="https://www.instagram.com/" class="footer-wrap-link">
                   <svg class="footer-icon" width="20" height="20">
-                    <use href="img/symbol-defs.svg#icon-instagram"></use>
+                    <use href="img/symbol-defs.svg#instagram"></use>
                   </svg>
                 </a>
               </li>
               <li class="footer-wrap-item">
                 <a href="https://x.com/?lang=uk" class="footer-wrap-link">
                   <svg class="footer-icon" width="20px" height="20px">
-                    <use href="img/symbol-defs.svg#icon-twitter"></use>
+                    <use href="img/symbol-defs.svg#twitter"></use>
                   </svg>
                 </a>
               </li>
               <li class="footer-wrap-item">
                 <a href="https://de-de.facebook.com/" class="footer-wrap-link">
                   <svg class="footer-icon" width="20px" height="20px">
-                    <use href="img/symbol-defs.svg#icon-facebook"></use>
+                    <use href="img/symbol-defs.svg#facebook"></use>
                   </svg>
                 </a>
               </li>
               <li class="footer-wrap-item">
                 <a href="https://www.linkedin.com/" class="footer-wrap-link">
                   <svg class="footer-icon" width="20px" height="20px">
-                    <use href="img/symbol-defs.svg#icon-linkedin"></use>
+                    <use href="img/symbol-defs.svg#linkedin"></use>
                   </svg>
                 </a>
               </li>
@@ -436,5 +496,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>

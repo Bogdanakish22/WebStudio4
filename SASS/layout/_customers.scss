@@ -1,0 +1,41 @@
+.customers {
+}
+
+.customers-title {
+  padding-bottom: 50px;
+  margin-top: 94px;
+  color: #212121;
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 1.08px;
+}
+.customers-list {
+  margin-bottom: 94px;
+  display: flex;
+  gap: 30px;
+}
+.customers-item {
+  padding: 16px 32px;
+  border-radius: 4px;
+  border: 1px solid #afb1b8;
+}
+.customers-item:hover {
+  border: 1px solid #2196f3;
+}
+.customers-icon {
+  display: flex;
+  width: 106px;
+  height: 60px;
+  padding: 8.7px 10.564px 10.677px 11px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 25%;
+  fill: #757575;
+  padding: 11px;
+}
+.customers-icon:hover {
+  fill: #2196f3;
+}

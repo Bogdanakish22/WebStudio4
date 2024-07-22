@@ -1,0 +1,68 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 25px;
+}
+.header-logo {
+  margin-bottom: 32px;
+  color: #2196f3;
+  font-family: Raleway;
+  font-size: 26px;
+  letter-spacing: 0.78px;
+}
+.studio {
+  color: #000;
+}
+.header-nav {
+}
+
+.nav-list {
+  display: flex;
+  gap: 50px;
+  margin-left: -180px;
+}
+
+.nav-item {
+}
+.nav-link {
+  color: #212121;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.28px;
+}
+
+.nav-link:hover {
+  color: #2196f3;
+}
+.contact-list {
+  display: flex;
+  gap: 50px;
+}
+.contact-item {
+  margin-bottom: 32px;
+  display: flex;
+  gap: 10px;
+}
+.rob {
+  fill: #757575;
+  width: 16px;
+  height: 12px;
+  margin-top: 3px;
+}
+.rob:hover {
+  fill: #2196f3;
+}
+.contact-link {
+  color: #757575;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.28px;
+}
+.contact-link:hover {
+  color: #2196f3;
+}
+.line {
+  background: #ececec;
+  height: 1px;
+}
