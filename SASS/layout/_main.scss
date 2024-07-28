@@ -10,7 +10,7 @@
   gap: 8px;
 }
 .main-work {
-  background-color: #ffffff;
+  background-color: $popularColor;
   margin-top: 94px;
 }
 .main-list {
@@ -24,8 +24,8 @@
   width: 370px;
   height: 404px;
   margin: 0 auto;
-  border: 1px solid #eee;
-  background-color: #ffffff;
+  border: 1px solid $popularColor;
+  background-color: $popularColor;
 }
 .main-item:hover .main-box-text {
   transform: translatey(0);
@@ -36,7 +36,7 @@
 }
 
 .main-work-title {
-  color: #212121;
+  color: $popTwoColor;
   font-size: 18px;
   font-weight: 700;
   line-height: 36px; /* 200% */
@@ -52,11 +52,11 @@
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #2196f3e5;
+  background-color: $popHovColor;
   transform: translatey(102%);
   transition: transform 250ms ease-in-out;
   padding: 63px 24px;
-  color: #fff;
+  color: $popularColor;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -64,7 +64,7 @@
   letter-spacing: 0.54px;
 }
 .main-list-box p {
-  color: #fff;
+  color: $popularColor;
   padding: 10px;
   margin: 0;
   font-size: 18px;
@@ -73,12 +73,12 @@
   display: inline-block;
   padding: 2px 4px;
   border-radius: 2px;
-  background-color: #fff;
-  color: #2a2a2a;
+  background-color: $popularColor;
+  color: $popTwoColor;
 }
 .button {
   border-radius: 4px;
-  background: #f5f4fa;
+  background: $popularColor;
   border: none;
   font-size: 16px;
   font-weight: 500;
@@ -87,7 +87,7 @@
   padding: 6px 25px;
 }
 .button:hover {
-  background-color: #2196f3;
+  background-color: $popHovColor;
   box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1),
     0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
 }
@@ -96,12 +96,12 @@
   height: 4px;
   border-radius: 2%;
   border: none;
-  background-color: #ffffff;
+  background-color: $popularColor;
 }
 .btn-line:hover {
   margin-top: 28px;
   height: 4px;
   border-radius: 2%;
   border: none;
-  background-color: #2196f3;
+  background-color: $popHovColor;
 }

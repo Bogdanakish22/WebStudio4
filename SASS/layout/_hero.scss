@@ -1,5 +1,5 @@
 .hero {
-  background-color: #2f303a;
+  background-color: $popTwoColor;
   background-image: url(../img/hero-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -14,7 +14,7 @@
 }
 .hero-title {
   margin: 0 auto;
-  color: #fff;
+  color: $popularColor;
   text-align: center;
   font-size: 44px;
   line-height: 60px;
@@ -25,7 +25,7 @@
   margin-bottom: 30px;
 }
 .backdrop {
-  background-color: #00000085;
+  background-color: $popTwoColor;
   position: fixed;
   top: 0;
   left: 0;
@@ -46,21 +46,21 @@
   right: 50%;
   width: 528px;
   min-height: 581px;
-  background-color: #fff;
+  background-color: $popularColor;
   transform: translate(50%, -50%);
+}
+.close {
 }
 .controll {
 }
 .hero-modal-title {
   margin-top: 40px;
   margin-bottom: 30px;
-  color: #212121;
+  color: $popTwoColor;
   text-align: center;
-  font-family: Roboto;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
-  line-height: normal;
   letter-spacing: 0.6px;
 }
 .hero-modal-form {
@@ -69,12 +69,10 @@
   display: flex;
   flex-direction: column;
   margin-bottom: 8px;
-  color: #757575;
-  font-family: Roboto;
+  color: $popNorCololr;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
   letter-spacing: 0.12px;
 }
 .hero-modal-text {
@@ -99,7 +97,7 @@
   margin-left: 164px;
   margin-top: 30px;
   display: flex;
-  color: #fff;
+  color: $popularColor;
   text-align: center;
   font-family: Roboto;
   font-size: 16px;
@@ -108,13 +106,13 @@
   line-height: 30px; /* 187.5% */
   letter-spacing: 0.96px;
   border-radius: 4px;
-  background: #2196f3;
+  background: $popHovColor;
   border: none;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .hero-button {
-  color: #fff;
+  color: $popularColor;
   text-align: center;
   font-size: 16px;
   font-weight: 700px;
@@ -125,6 +123,6 @@
   height: 50px;
   flex-shrink: 0;
   border-radius: 4px;
-  background: #2196f3;
+  background: $popHovColor;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }

@@ -6,13 +6,13 @@
 }
 .header-logo {
   margin-bottom: 32px;
-  color: #2196f3;
+  color: $popHovColor;
   font-family: Raleway;
   font-size: 26px;
   letter-spacing: 0.78px;
 }
 .studio {
-  color: #000;
+  color: $popTwoColor;
 }
 .header-nav {
 }
@@ -26,14 +26,14 @@
 .nav-item {
 }
 .nav-link {
-  color: #212121;
+  color: $popTwoColor;
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.28px;
 }
 
 .nav-link:hover {
-  color: #2196f3;
+  color: $popHovColor;
 }
 .contact-list {
   display: flex;
@@ -45,24 +45,24 @@
   gap: 10px;
 }
 .rob {
-  fill: #757575;
+  fill: $popNorCololr;
   width: 16px;
   height: 12px;
   margin-top: 3px;
 }
 .rob:hover {
-  fill: #2196f3;
+  fill: $popHovColor;
 }
 .contact-link {
-  color: #757575;
+  color: $popNorCololr;
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.28px;
 }
 .contact-link:hover {
-  color: #2196f3;
+  color: $popHovColor;
 }
 .line {
-  background: #ececec;
+  background: $popularColor;
   height: 1px;
 }

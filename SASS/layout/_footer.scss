@@ -1,6 +1,6 @@
 .footer {
   height: 252px;
-  background: #2f303a;
+  background: $popTwoColor;
   margin: auto;
   padding-top: 60px;
   justify-content: space-between;
@@ -13,14 +13,14 @@
 .wrap-footer {
 }
 .footer-logo {
-  color: #2196f3;
+  color: $popHovColor;
   font-family: Raleway;
   font-size: 26px;
   font-weight: 700;
   letter-spacing: 0.78px;
 }
 .footer-logo-span {
-  color: #fff;
+  color: $popularColor;
 }
 .footer-list {
   padding-top: 20px;
@@ -47,13 +47,13 @@
   border-radius: 50%;
 }
 .footer-wrap-item:hover {
-  fill: #ececec;
-  background-color: #2196f3;
+  fill: $popularColor;
+  background-color: $popHovColor;
 }
 .footer-icon-title {
   margin-top: 12px;
   padding-bottom: 20px;
-  color: #fff;
+  color: $popularColor;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -74,11 +74,11 @@
   align-items: center;
 }
 .footer-icon {
-  fill: #ececec;
+  fill: $popularColor;
 }
 
 .footer-item-link {
-  color: #fff;
+  color: $popularColor;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -99,7 +99,7 @@
   margin-top: 12px;
   margin-bottom: 20px;
   display: flex;
-  color: #fff;
+  color: $popularColor;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -131,7 +131,7 @@
 .user-bunner-btn {
   width: 200px;
   height: 50px;
-  color: #fff;
+  color: $popularColor;
   text-align: center;
   font-size: 16px;
   font-style: normal;
@@ -139,9 +139,9 @@
   line-height: 30px; /* 187.5% */
   letter-spacing: 0.96px;
   border-radius: 4px;
-  background: #2196f3;
+  background: $popHovColor;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .footer-button-icon {
-  fill: #eee;
+  fill: $popularColor;
 }
