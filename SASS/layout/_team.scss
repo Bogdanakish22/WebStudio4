@@ -2,101 +2,119 @@
   padding-bottom: 94px;
   margin-top: 94px;
   padding-top: 94px;
-  background-color: $popularColor;
-}
-.team-heading {
-  margin-bottom: 50px;
-  color: $popTwoColor;
-  text-align: center;
-  font-size: 36px;
-  font-weight: 700;
-  letter-spacing: 1.08px;
-}
-.team-title {
-  color: $popTwoColor;
-  margin-bottom: 10px;
-  font-size: 16px;
-  font-weight: 500;
-  letter-spacing: 0.48px;
-}
-.team-list {
+  background-color: $popSpekColor;
   display: flex;
-  justify-content: center;
-  gap: 30px;
-}
+  flex-direction: column;
+  .team-heading {
+    margin-bottom: 50px;
+    color: $popTwoColor;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.08px;
+  }
+  .team-title {
+    color: $popTwoColor;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.48px;
+  }
+  .team-list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+  }
 
-.team-item {
-  text-align: center;
-  background-color: $popularColor;
-  padding-bottom: 30px;
-  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
-}
-.team-img {
-  margin-bottom: 30px;
-}
+  .team-item {
+    text-align: center;
+    background-color: $popularColor;
+    padding-bottom: 30px;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12),
+      0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
+  }
+  .team-img {
+    margin-bottom: 30px;
+    width: 450px;
+    height: 460px;
+  }
 
-.team-text {
-  color: $popNorCololr;
-  font-size: 16px;
-  font-weight: 400;
-  letter-spacing: 0.48px;
-  margin-bottom: 16px;
-}
-.team-social-list {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.team-social-item {
-  padding: 12px;
-  border-radius: 50%;
-}
-.team-social-item:hover {
-  background-color: $popHovColor;
-}
-.team-social-link {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-}
-.team-wrap {
-}
-.team-wrap-item {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  padding: 12px;
-  border-radius: 50%;
-}
-.team-wrap-item:hover {
-  fill: $popularColor;
-  background-color: $popHovColor;
-}
-.team-wrap-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.team-icon {
-  fill: $popNorCololr;
-}
-.team-icon:hover {
-  fill: $popularColor;
-}
-.team-icon-link {
-  display: flex;
-  text-align: center;
-}
-.team-icon-title {
-  color: $popularColor;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 700;
-  letter-spacing: 0.42px;
-  text-transform: uppercase;
-}
-.team-icon {
-}
-.team-icon:hover {
+  .team-text {
+    color: $popNorCololr;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.48px;
+    margin-bottom: 16px;
+  }
+  .team-social-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .team-social-item {
+    padding: 12px;
+    border-radius: 50%;
+  }
+  .team-social-item:hover {
+    background-color: $popHovColor;
+  }
+  .team-social-link {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .team-wrap {
+  }
+  .team-wrap-item {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    border-radius: 50%;
+  }
+  .team-wrap-item:hover {
+    fill: $popularColor;
+    background-color: $popHovColor;
+  }
+  .team-wrap-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .team-icon {
+    fill: $popNorCololr;
+  }
+  .team-icon:hover {
+    fill: $popularColor;
+  }
+  .team-icon-link {
+    display: flex;
+    text-align: center;
+  }
+  .team-icon-title {
+    color: $popularColor;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+  }
+  .team-icon {
+  }
+  .team-icon:hover {
+  }
+  @media screen and (min-width: 480px) {
+    .team-list {
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .team-list {
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+  }
 }

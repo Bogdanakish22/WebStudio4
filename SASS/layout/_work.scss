@@ -1,51 +1,62 @@
 .work {
   width: 1200px;
   margin-top: 118px;
-}
-.work-title {
-  margin-bottom: 50px;
-  color: $popTwoColor;
-  font-size: 36px;
-  text-align: center;
-  font-weight: 700;
-  letter-spacing: 1.08px;
-}
-.work-list {
-  display: flex;
-  gap: 30px;
-}
-.work-item {
-  border: 1px solid $popularColor;
-}
-.work-img {
-}
-.work-text {
-  color: $popNorCololr;
-  text-align: center;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 30px; /* 187.5% */
-  letter-spacing: 0.48px;
-  margin-bottom: 20px;
-}
-.work-item-box {
-  position: relative;
-  bottom: 75px;
-  background: #2f303acc;
-  width: 370px;
-  height: 70px;
-  flex-shrink: 0;
-}
-.wotk-title-box {
-  padding-top: 27px;
-  color: $popularColor;
-  text-align: center;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 700;
-  letter-spacing: 0.42px;
-  text-transform: uppercase;
-}
-.work-list-wrap {
+  display: none;
+  .work-title {
+    margin-bottom: 50px;
+    color: $popTwoColor;
+    font-size: 36px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 1.08px;
+  }
+  .work-list {
+    display: flex;
+    gap: 30px;
+  }
+  .work-item {
+    border: 1px solid $popularColor;
+  }
+  .work-img {
+  }
+  .work-text {
+    color: $popNorCololr;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+    letter-spacing: 0.48px;
+    margin-bottom: 20px;
+  }
+  .work-item-box {
+    position: relative;
+    bottom: 75px;
+    background: #2f303acc;
+    width: 370px;
+    height: 70px;
+    flex-shrink: 0;
+  }
+  .wotk-title-box {
+    padding-top: 27px;
+    color: $popularColor;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+  }
+  .work-list-wrap {
+  }
+  @media screen and (min-width: 480px) {
+    display: none;
+  }
+
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+  @media screen and (min-width: 1200px) {
+    display: flex;
+  }
 }
