@@ -330,60 +330,51 @@ body {
   }
 }
 
-.main-hero {
+.main .main-hero {
   margin-top: 94px;
   text-align: center;
 }
-
-.btn-list {
+.main .btn-list {
   justify-content: center;
   display: flex;
   gap: 8px;
 }
-
-.main-work {
+.main .main-work {
   background-color: #ffffff;
   margin-top: 94px;
 }
-
-.main-list {
+.main .main-list {
   display: flex;
   flex-wrap: wrap;
   margin-top: 50px;
   gap: 24px;
   margin-bottom: 94px;
 }
-
-.main-item {
+.main .main-item {
   width: 370px;
   height: 404px;
   margin: 0 auto;
   border: 1px solid #ffffff;
   background-color: #ffffff;
 }
-
-.main-item:hover .main-box-text {
+.main .main-item:hover .main-box-text {
   transform: translatey(0);
 }
-
-.main-item:hover {
+.main .main-item:hover {
   box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
 }
-
-.main-work-title {
+.main .main-work-title {
   color: #212121;
   font-size: 18px;
   font-weight: 700;
   line-height: 36px; /* 200% */
   letter-spacing: 1.08px;
 }
-
-.main-list-box {
+.main .main-list-box {
   position: relative;
   overflow: hidden;
 }
-
-.main-box-text {
+.main .main-box-text {
   position: absolute;
   top: 0;
   left: 0;
@@ -399,23 +390,20 @@ body {
   line-height: 28px; /* 155.556% */
   letter-spacing: 0.54px;
 }
-
-.main-list-box p {
+.main .main-list-box p {
   color: #ffffff;
   padding: 10px;
   margin: 0;
   font-size: 18px;
 }
-
-.main-list-box code {
+.main .main-list-box code {
   display: inline-block;
   padding: 2px 4px;
   border-radius: 2px;
   background-color: #ffffff;
   color: #212121;
 }
-
-.button {
+.main .button {
   border-radius: 4px;
   background: #ffffff;
   border: none;
@@ -425,12 +413,19 @@ body {
   letter-spacing: 0.48px;
   padding: 6px 25px;
 }
-
-.button:hover {
+.main .button:hover {
   background-color: #2196f3;
   box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
 }
-
+@media screen and (min-width: 760px) {
+  .main .main-img {
+    width: 354px;
+    height: 294px;
+  }
+  .main .main-item {
+    width: calc((100% - 30px) / 2);
+  }
+}
 .feature {
   margin-top: 90px;
 }
