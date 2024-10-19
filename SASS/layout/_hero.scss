@@ -1,4 +1,5 @@
 .hero {
+  height: 600px;
   background-color: $popTwoColor;
   background-image: url(../img/hero-bg.jpg);
   background-repeat: no-repeat;
@@ -9,11 +10,8 @@
   align-items: center;
   flex-direction: column;
   margin: auto;
-  height: 600px;
-  max-width: 1600px;
 
   .hero-title {
-    display: flex;
     flex-wrap: wrap;
     color: $popularColor;
     text-align: center;
@@ -155,5 +153,51 @@
   @media screen and (min-width: 760px) {
   }
   @media screen and (min-width: 1200px) {
+    .hero-title {
+      color: $popularColor;
+      text-align: center;
+      font-size: 44px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: 60px; /* 136.364% */
+      letter-spacing: 2.64px;
+      text-transform: uppercase;
+      width: 696px;
+    }
+    .modal {
+      position: absolute;
+      top: 50%;
+      right: 50%;
+      width: 528px;
+      height: 581px;
+      background-color: $popularColor;
+      transform: translate(50%, -50%);
+    }
+    .hero-modal-title {
+      margin-left: 35px;
+      margin-top: 40px;
+      margin-bottom: 30px;
+      color: $popTwoColor;
+      text-align: center;
+      width: 448px;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 30px; /* 150% */
+      letter-spacing: 0.6px;
+    }
+    .hero-modal-text {
+      width: 448px;
+      height: 40px;
+      border-radius: 4px;
+      border: 1px solid rgba(33, 33, 33, 0.2);
+    }
+    .hero-modal-checkbox {
+      margin-top: 20px;
+      margin-left: 25px;
+    }
+    .hero-modal-link {
+      color: $popHovColor;
+    }
   }
 }

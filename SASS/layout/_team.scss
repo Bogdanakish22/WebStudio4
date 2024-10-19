@@ -114,7 +114,17 @@
       flex-wrap: wrap;
       gap: 30px;
     }
+    .team-img {
+      margin-bottom: 30px;
+      width: 354px;
+      height: 374px;
+    }
   }
   @media screen and (min-width: 1200px) {
+    .team-img {
+      margin-bottom: 30px;
+      width: 270px;
+      height: 260px;
+    }
   }
 }

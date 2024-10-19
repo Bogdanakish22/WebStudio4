@@ -5,6 +5,7 @@
 }
 @media screen and (min-width: 480px) {
   .container {
+    align-items: center;
     width: 480px;
   }
 }
@@ -135,6 +136,7 @@ body {
 }
 
 .hero {
+  height: 600px;
   background-color: #212121;
   background-image: url(../img/hero-bg.jpg);
   background-repeat: no-repeat;
@@ -145,11 +147,8 @@ body {
   align-items: center;
   flex-direction: column;
   margin: auto;
-  height: 600px;
-  max-width: 1600px;
 }
 .hero .hero-title {
-  display: flex;
   flex-wrap: wrap;
   color: #ffffff;
   text-align: center;
@@ -282,6 +281,55 @@ body {
   border: none;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
+@media screen and (min-width: 1200px) {
+  .hero .hero-title {
+    color: #ffffff;
+    text-align: center;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 60px; /* 136.364% */
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+    width: 696px;
+  }
+  .hero .modal {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    width: 528px;
+    height: 581px;
+    background-color: #ffffff;
+    transform: translate(50%, -50%);
+  }
+  .hero .hero-modal-title {
+    margin-left: 35px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color: #212121;
+    text-align: center;
+    width: 448px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 150% */
+    letter-spacing: 0.6px;
+  }
+  .hero .hero-modal-text {
+    width: 448px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+  }
+  .hero .hero-modal-checkbox {
+    margin-top: 20px;
+    margin-left: 25px;
+  }
+  .hero .hero-modal-link {
+    color: #2196f3;
+  }
+}
+
 .main-hero {
   margin-top: 94px;
   text-align: center;
@@ -431,9 +479,9 @@ body {
 }
 
 .work {
-  width: 1200px;
   margin-top: 118px;
-  display: none;
+  display: flex;
+  flex-direction: column;
 }
 .work .work-title {
   margin-bottom: 50px;
@@ -598,7 +646,20 @@ body {
     flex-wrap: wrap;
     gap: 30px;
   }
+  .team .team-img {
+    margin-bottom: 30px;
+    width: 354px;
+    height: 374px;
+  }
 }
+@media screen and (min-width: 1200px) {
+  .team .team-img {
+    margin-bottom: 30px;
+    width: 270px;
+    height: 260px;
+  }
+}
+
 .customers .customers-title {
   padding-bottom: 50px;
   margin-top: 94px;
@@ -791,8 +852,12 @@ body {
 }
 @media screen and (min-width: 768px) {
   .footer {
-    width: 768px;
     justify-content: center;
+  }
+  .footer .user-bunner-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -803,5 +868,26 @@ body {
   }
   .footer .user-bunner-form {
     margin-left: 93px;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .footer .user-bunner-input {
+    align-items: center;
+    padding-left: 16px;
+    width: 358px;
+    height: 50px;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 125% */
+    letter-spacing: 0.48px;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(33, 150, 243, 0);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  }
+  .footer .user-bunner-btn {
+    margin-bottom: 15px;
   }
 }/*# sourceMappingURL=main.css.map */
